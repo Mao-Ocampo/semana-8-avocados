@@ -1,0 +1,25 @@
+@import "../_snowpack/pkg/tailwindcss/dist/base.css";
+@import "../_snowpack/pkg/tailwindcss/dist/components.css";
+@import "../_snowpack/pkg/tailwindcss/dist/utilities.css";
+
+
+.content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.avocado-card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.title-text {
+    display: grid;
+    font-size: 2rem;
+}
+
+.price-text {
+    font-size: 1rem;
+    display: grid;
+}
